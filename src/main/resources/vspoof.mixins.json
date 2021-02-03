@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vanilla.spoof.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "EMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
