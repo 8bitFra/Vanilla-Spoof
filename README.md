@@ -1,2 +1,2 @@
 # Vanilla-Spoof
-A mod that allows you to spoof the minecraft client as vanilla, instead of fabric.
+A fabric mod that implemets the wurst VanillaSpoof module. 
