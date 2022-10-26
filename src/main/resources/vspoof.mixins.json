@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ClientConnectionMixin"
+    "ClientConnectionMixin",
+    "CustomPayloadC2SPacketAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
