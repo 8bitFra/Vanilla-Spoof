@@ -22,7 +22,7 @@ loom {
     splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
+		"vspoof" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
