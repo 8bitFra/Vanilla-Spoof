@@ -50,8 +50,7 @@ public abstract class ClientConnectionMixin
 		method = "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V")
 	public Packet<?> modifyPacket(Packet<?> packet)
 	{
-		ConnectionPacketOutputEvent event =
-			new ConnectionPacketOutputEvent(packet);
+		ConnectionPacketOutputEvent event = new ConnectionPacketOutputEvent(packet);
 		events.add(event);
 		EventManager.fire(event);
 		return event.getPacket();
